@@ -1,9 +1,8 @@
 /*debug*/
-[class*="col-"] {
+/* [class*="col-"] {
     background-color: #d8d8d8;
     border: 1px solid black;
-}
-/*debug*/
+} */
 
 /* nav bar */
 #fluid-nav {
@@ -11,6 +10,8 @@
     padding-top: 30px; /*debug*/
     background-color: #2C3E50;
 }
+
+/* hero */
 #fluid-hero {
     text-align: center;
     font-weight: 700;
@@ -29,20 +30,38 @@
     margin-top: 16px;
     margin-bottom: 32px;
 }
+/* portfolio */
+#portfolio {
+    text-align: center;
+    text-transform: uppercase;
+    color: #2C3E50;
+}
+#portfolio h2 {
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+#portfolio img {
+    width: 100%;
+    padding: 8px;
+    border-radius: 20px;
+}
 
 /* Small devices (tablets, 768px and up) */ 
 @media (min-width:768px) { 
-    
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width:992px) {
     #fluid-hero h1{
         font-size: 42px;
     }
     #fluid-hero .row p{
         font-size: 22px;
     }
+    #portfolio h2 {
+        font-size: 36px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) {
+    
 }
 
 /* Large devices (large desktops, 1200px and up) */
