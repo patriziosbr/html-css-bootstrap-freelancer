@@ -1,0 +1,51 @@
+/*debug*/
+[class*="col-"] {
+    background-color: #d8d8d8;
+    border: 1px solid black;
+}
+/*debug*/
+
+/* nav bar */
+#fluid-nav {
+    height: 85px; /*debug*/
+    padding-top: 30px; /*debug*/
+    background-color: #2C3E50;
+}
+#fluid-hero {
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1ABC9C;
+    text-transform: uppercase;
+}
+#fluid-hero img {
+    width: 250px;
+    margin-top: 24px;
+}
+#fluid-hero h1{
+    margin-bottom: 24px;
+}
+#fluid-hero .row p:last-child{
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+/* Small devices (tablets, 768px and up) */ 
+@media (min-width:768px) { 
+    
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) {
+    #fluid-hero h1{
+        font-size: 42px;
+    }
+    #fluid-hero .row p{
+        font-size: 22px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1200px) {
+
+}
