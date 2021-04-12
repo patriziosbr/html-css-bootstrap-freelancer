@@ -10,49 +10,115 @@
         <title>Bootstrap 3</title>
     </head>
     <body>
-        <div id="fluid-nav" class="container-fluid">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-3">logo area</div>
-                    <div class="col-xs-2 col-xs-offset-7">icon</div>
+        <!--header-->
+        <header>
+            <nav id="fluid-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-3">logo area</div>
+                        <div class="col-xs-2 col-xs-offset-7">icon</div>
+                        <!--offset non conviene meglio due colonne da 6 align sx e dx -->
+                    </div>
                 </div>
+            </nav>
+            
+            <div id="fluid-hero">
+                <img src="./img/avatar.svg" alt="male avatar">
+                <h1><strong>start Bootstrap</strong></h1>
+                <p>star icon</p>
+                <h3>graphic artist - web designer - illustrator</h3> 
             </div>
-        </div>
 
-        <div id="fluid-hero" class="container-fluid">
-            <div class="container">
-                <div class="row">
-                    <img src="./img/avatar.svg" alt="male avatar">
-                    <h1><strong>start Bootstrap</strong></h1>
-                    <p>star icon</p>
-                    <p>graphic artist - web designer - illustrator</p>
-                </div>
-            </div>
-        </div>
+        </header>
+        
+        <!--header-->
 
-        <div id="portfolio" class="container">
-            <h2><strong>portfolio</strong></h2>
-            <p>star icon</p>
+        <!--main-->
+        <main>
+            <section id="portfolio">
+                <h2><strong>portfolio</strong></h2>
+                <p>star icon</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <img src="./img/cabin.png" alt="house">
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <img src="./img/cake.png" alt="cake">
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <img src="./img/circus.png" alt="circ">
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <img src="./img/game.png" alt="controller">
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <img src="./img/safe.png" alt="safe value">
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <img src="./img/submarine.png" alt="yellow submarine"> 
+                        </div>
+                    </div>
+                </div>
+            </section> 
 
-            <div class="row">
-                <div class="col-sm-6 col-lg-4">
-                    <img src="./img/cabin.png" alt="house">
+            <section id="about">
+                <h2>About</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-10 col-xs-offset-1 col-md-10">
+                            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization. </p>
+                        </div>
+                        <div class="col-xs-10 col-xs-offset-1 col-md-10">
+                            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <img src="./img/cake.png" alt="cake">
+                <h2>"button download"</h2>
+            </section>
+
+            <section id="contact">
+                <h2>Contact me</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-10 col-xs-offset-1 col-md-10">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium saepe a perferendis. Asperiores similique nesciunt nostrum! Deleniti natus eveniet doloremque repellendus, nisi quos. Facere voluptatem optio iste dolores neque temporibus, fuga quia sit est rerum in vero suscipit eligendi enim aperiam explicabo tempora at debitis quibusdam! Nisi corrupti iusto officia eveniet assumenda autem, pariatur, maiores quibusdam commodi enim, quaerat repudiandae! Aut voluptas architecto consequatur inventore ratione quibusdam eius dicta tempora illum! Dignissimos quos alias sed impedit asperiores, nobis facilis. Modi accusamus magnam ab eius, eos hic aliquid maiores vel corporis dicta deleniti obcaecati inventore expedita distinctio veniam doloremque sequi! Beatae praesentium esse inventore eligendi voluptatum, itaque id nesciunt. Esse ut harum nam inventore sequi nesciunt, repellendus reiciendis et commodi culpa beatae suscipit quo, ullam ipsam? </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <img src="./img/circus.png" alt="circ">
+            </section>
+        </main>
+
+        <footer>
+
+                <div id="footer_top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-4">
+                                <h4>location</h4>
+                                <p class="text-center">2215 John Daniel Drive Clark, MO 54243</p>
+                            </div>
+                            <div class="col-xs-12 col-md-4">
+                                <h4>AROUND THE WEB</h4>
+                                <i>ICON</i>
+                                <i>ICON</i>
+                                <i>ICON</i>
+                                <i>ICON</i>
+                            </div>
+                            <div class="col-xs-12 col-md-4">
+                                <h4>about Freelancer</h4>
+                                <p> Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <img src="./img/game.png" alt="controller">
+
+                <div id="footer_bottom">
+                    <p>Copyright &copy Your Website 2019</p>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <img src="./img/safe.png" alt="safe value">
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <img src="./img/submarine.png" alt="yellow submarine"> 
-                </div>
-            </div>      
+
+        </footer>
+       
+                  
     </body>
 </html>

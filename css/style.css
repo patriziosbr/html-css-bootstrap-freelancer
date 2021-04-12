@@ -13,6 +13,7 @@
 
 /* hero */
 #fluid-hero {
+    padding: 48px 0;
     text-align: center;
     font-weight: 700;
     color: #fff;
@@ -26,33 +27,66 @@
 #fluid-hero h1{
     margin-bottom: 24px;
 }
-#fluid-hero .row p:last-child{
-    margin-top: 16px;
-    margin-bottom: 32px;
-}
+
 /* portfolio */
 #portfolio {
+    padding: 48px;
     text-align: center;
     text-transform: uppercase;
     color: #2C3E50;
 }
 #portfolio h2 {
-    margin-top: 48px;
     margin-bottom: 24px;
 }
 #portfolio img {
     width: 100%;
-    padding: 8px;
-    border-radius: 20px;
+    padding: 15px 0;
+    border-radius: 10%;
 }
+
+/*about*/
+#about {
+    color: #ffffff;
+    padding: 48px 0;
+    margin: 0 auto;
+    background-color: #1ABC9C;
+}
+#about h2,
+#contact h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*contact*/
+#contact {
+    padding: 48px 0;
+    color: #2C3E50;
+}
+
+/*footer top*/
+footer {
+    color: #ffffff;
+    text-align: center;
+}
+
+#footer_top {
+    padding: 48px;
+    background-color: #3A546D;
+}
+#footer_top h4 {
+    text-transform: uppercase;
+}
+#footer_bottom {
+    padding: 48px;
+    background-color: #2C3E50;
+}
+
+/*footer bottom*/
 
 /* Small devices (tablets, 768px and up) */ 
 @media (min-width:768px) { 
     #fluid-hero h1{
         font-size: 42px;
-    }
-    #fluid-hero .row p{
-        font-size: 22px;
     }
     #portfolio h2 {
         font-size: 36px;
