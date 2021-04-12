@@ -1,0 +1,75 @@
+/* nav bar */
+/* #fluid_nav {
+    height: 85px; debug
+    padding-top: 30px; debug
+    background-color: #2C3E50;
+} */
+/* hero */
+html {
+    scroll-behavior: smooth;    
+}
+.navbar_top {
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #2C3E50;
+    border-color: #2C3E50;
+}
+.navbar_top .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.navbar_top .navbar-toggle:focus,
+.navbar_top .navbar-toggle:hover {
+    background-color: #ddd;
+}
+.navbar-toggle { 
+    border: 1px solid #ffffff;
+}
+.navbar-brand {
+    color: #fff;
+}
+a:focus,
+a:hover {
+    color: #ffffff;
+}
+.nav>li>a {
+    color: #fff;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #2C3E50;
+    color: #1ABC9C;
+}
+
+#fluid_hero {
+    padding: 48px 0;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1ABC9C;
+    text-transform: uppercase;
+}
+#fluid_hero img {
+    width: 250px;
+    margin-top: 24px;
+}
+#fluid_hero h1{
+    margin-bottom: 24px;
+}
+
+/* portfolio */
+#portfolio {
+    padding: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2C3E50;
+}
+#portfolio h2 {
+    margin-bottom: 24px;
+}
+#portfolio img {
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 10%;
+}
