@@ -57,6 +57,43 @@ a:hover {
 #fluid_hero h1{
     margin-bottom: 24px;
 }
+/*common line star*/
+.fa-star {
+    font-size: 22px;
+}
+.line::before {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid #ffffff;
+    width: 10rem;
+    margin: -5px 1rem;
+    transform: translateY(-1rem);
+}
+.line::after:last-child {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid #ffffff;
+    width: 10rem;
+    margin: -5px 1rem;
+    transform: translateY(-1rem);
+}
+.line_blk::before {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid #2C3E50;
+    width: 10rem;
+    margin: -5px 1rem;
+    transform: translateY(-1rem);
+}
+.line_blk::after:last-child {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid #2C3E50;
+    width: 10rem;
+    margin: -5px 1rem;
+    transform: translateY(-1rem);
+}
+/*common line star*/
 
 /* portfolio */
 #portfolio {
