@@ -74,10 +74,10 @@ footer {
 #footer_top h4 {
     text-transform: uppercase;
 }
+/* social icon */
 #around_web ul {
     padding-left: 0; /*ereditato pad 40px da non so dove*/
     list-style: none;
-    
 }
 #around_web li {
     width: 45px;
@@ -95,12 +95,14 @@ footer {
     padding: 12px 16px;
     transition: 0.4s;
 }
+/* social icon hover */
 #around_web li:hover {
     background-color: #ffffff;
 }
 #around_web li:hover i {
     color: #2C3E50;
 }
+/* link footer hover */
 #link_inline {
     color: #1ABC9C;
     transition: 0.4s;
@@ -109,8 +111,6 @@ footer {
     color: #2f917d;
     text-decoration: underline;
 }
-
-
 /*footer bottom*/
 #footer_bottom {
     padding: 48px;
