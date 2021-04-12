@@ -95,9 +95,13 @@
                         <div class="col-xs-10 col-xs-offset-1 col-md-10">
                             <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! </p>
                         </div>
+                        <div class="col-xs-12 text-center">
+                            <a class="btn btn-default btn_download" href="#" role="button">
+                                <i class="fas fa-download"></i>Download
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <h2>"button download"</h2>
             </section>
 
             <section id="contact">
@@ -105,7 +109,23 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-10 col-xs-offset-1 col-md-10">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium saepe a perferendis. Asperiores similique nesciunt nostrum! Deleniti natus eveniet doloremque repellendus, nisi quos. Facere voluptatem optio iste dolores neque temporibus, fuga quia sit est rerum in vero suscipit eligendi enim aperiam explicabo tempora at debitis quibusdam! Nisi corrupti iusto officia eveniet assumenda autem, pariatur, maiores quibusdam commodi enim, quaerat repudiandae! Aut voluptas architecto consequatur inventore ratione quibusdam eius dicta tempora illum! Dignissimos quos alias sed impedit asperiores, nobis facilis. Modi accusamus magnam ab eius, eos hic aliquid maiores vel corporis dicta deleniti obcaecati inventore expedita distinctio veniam doloremque sequi! Beatae praesentium esse inventore eligendi voluptatum, itaque id nesciunt. Esse ut harum nam inventore sequi nesciunt, repellendus reiciendis et commodi culpa beatae suscipit quo, ullam ipsam? </p>
+                            
+                            <form action="/action_page.php" method="post">
+                                <div class="form-group">
+                                    <input type="text" class="form-control form_style" id="name" maxlength="30" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control form_style" id="exampleInputEmail1" placeholder="Email Address">
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control form_style"  id="phone" name="phone" placeholder="Phone Number" pattern="[0-9]{3}[0-9]{4}[0-9]{3}">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control form_style" rows="8" placeholder="Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-success btn-lg btn_send">Send</button>
+                            </form>
+
                         </div>
                     </div>
                 </div>

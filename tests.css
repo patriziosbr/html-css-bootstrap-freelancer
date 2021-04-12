@@ -73,3 +73,74 @@ a:hover {
     padding: 15px 0;
     border-radius: 10%;
 }
+
+/*about*/
+#about {
+    color: #ffffff;
+    padding: 48px 0;
+    margin: 0 auto;
+    background-color: #1ABC9C;
+}
+#about h2,
+#contact h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+#contact {
+    padding: 48px 0;
+    color: #2C3E50;
+}
+.btn_download i {
+    margin-right: 8px;
+}
+.btn_download {
+    letter-spacing: 1px;
+    margin-top: 24px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/* form */
+form {
+    padding: 36px 0; /*forse solo top*/
+}
+.form_style {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 20px;
+}
+.form_style {
+    border-radius: 0;
+    box-shadow:  none;
+    transition: none;
+    padding-top: 12px; /*per distanziare placehoder da bottom*/
+    padding-bottom: 32px;
+}
+.form_style::placeholder {
+    color: #2C3E50;
+    padding-bottom: 16px;
+    /* font-weight: 600;  */
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #1ABC9C;
+}
+
+/* button from*/
+.btn_send {
+    border: transparent;
+    background-color: #1ABC9C;
+}
+.btn_send:hover {
+    color: #fff;
+    background-color: #24a087;
+    border-color:  #154138;
+}
+.btn_send:active,
+.btn_send:focus {
+    color: #fff;
+    background-color: #9ad4c9 !important;
+    border-color:  #6f7271 !important;
+}
