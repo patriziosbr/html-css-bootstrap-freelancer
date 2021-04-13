@@ -149,17 +149,14 @@ form {
     padding: 36px 0; /*forse solo top*/
 }
 .form_style {
+    font-size: 20px;
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    font-size: 20px;
-}
-.form_style {
     border-radius: 0;
     box-shadow:  none;
     transition: none;
-    padding-top: 12px; /*per distanziare placehoder da bottom*/
-    padding-bottom: 32px;
+    padding: 12px 0 32px; /*per distanziare placehoder da bottom*/
 }
 .form_style::placeholder {
     color: rgba(85, 85, 85, 0.8);
@@ -207,19 +204,24 @@ footer {
 }
 #around_web li {
     width: 45px;
+    height: 45px;
     margin-right: 16px;
     padding: 12px 0;
     border: 1px solid #ffffff;
     border-radius: 50%;
     display: inline-block;
     transition: 0.4s;
+    overflow: hidden;
 }
 #around_web a {
-    border-radius: 50%;
-    text-align: center;
+    /* border-radius: 50%;
+    text-align: center; */
     color: #ffffff;
-    padding: 12px 16px;
+    /* padding: 12px 16px; */
     transition: 0.4s;
+}
+#around_web i {
+
 }
 /* social icon hover */
 #around_web li:hover {
