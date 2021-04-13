@@ -41,7 +41,6 @@ a:hover {
     background-color: #2C3E50;
     color: #1ABC9C;
 }
-
 #fluid_hero {
     padding: 48px 0;
     text-align: center;
@@ -109,6 +108,7 @@ a:hover {
     width: 100%;
     padding: 15px 0;
     border-radius: 10%;
+    position: relative;
 }
 
 /*about*/
@@ -120,8 +120,12 @@ a:hover {
 }
 #about h2,
 #contact h2 {
+    margin-bottom: 24px;
     text-align: center;
     text-transform: uppercase;
+}
+#about p {
+    margin-top: 24px;
 }
 #contact {
     padding: 48px 0;

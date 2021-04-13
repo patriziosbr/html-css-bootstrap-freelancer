@@ -121,8 +121,12 @@ a:hover {
 }
 #about h2,
 #contact h2 {
+    margin-bottom: 24px;
     text-align: center;
     text-transform: uppercase;
+}
+#about p {
+    margin-top: 24px;
 }
 /*contact*/
 #contact {
